@@ -268,15 +268,15 @@ if has('gui_running') || &t_Co == 88 || &t_Co == 256
     let s:mono_4 = '4b5263'
 
     let s:hue_1  = '559ec3' " cyan
-    let s:hue_2  = '2da2d2' " blue
-    let s:hue_3  = 'bd98d2' " purple
-    let s:hue_4  = '96c466' " green
+    let s:hue_2  = 'bd98d2' " blue
+    let s:hue_3  = '2da2d2' " purple
+    let s:hue_4  = '84b084' " green
 
     let s:hue_5   = 'f05178' " red 1
     let s:hue_5_2 = 'd2395a' " red 2
 
-    let s:hue_6   = 'ffb61e' " orange 1
-    let s:hue_6_2 = 'e9bb1d' " orange 2
+    let s:hue_6   = 'e9a51b' " orange 1
+    let s:hue_6_2 = 'd2a719' " orange 2
 
     let s:syntax_bg     = '282c34'
     let s:syntax_gutter = '636d83'
@@ -284,7 +284,7 @@ if has('gui_running') || &t_Co == 88 || &t_Co == 256
 
     let s:syntax_accent = '528bff'
 
-    let s:vertsplit    = '373d48'
+    let s:vertsplit    = '474f5d'
     let s:special_grey = '3b4048'
     let s:visual_grey  = '3e4452'
     let s:pmenu        = '333841'
