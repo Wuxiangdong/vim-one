@@ -262,10 +262,10 @@ if has('gui_running') || &t_Co == 88 || &t_Co == 256
 
   " Color definition --------------------------------------------------------{{{
   if &background ==# 'dark'
-    let s:mono_1 = 'abb2bf'
-    let s:mono_2 = '828997'
-    let s:mono_3 = '5c6370'
-    let s:mono_4 = '4b5263'
+    let s:mono_1 = 'b4b1a8'
+    let s:mono_2 = '8d8989'
+    let s:mono_3 = '6c6266'
+    let s:mono_4 = '5d5154'
 
     let s:hue_1  = '559ed2' " cyan
     let s:hue_2  = '15a3e9' " blue
@@ -282,7 +282,7 @@ if has('gui_running') || &t_Co == 88 || &t_Co == 256
     let s:syntax_gutter = '636d83'
     let s:syntax_cursor = '2c323c'
 
-    let s:syntax_accent = '528bff'
+    let s:syntax_accent = '54ace6'
 
     let s:vertsplit    = '474f5d'
     let s:special_grey = '3b4048'
