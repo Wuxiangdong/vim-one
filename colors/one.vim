@@ -268,8 +268,8 @@ if has('gui_running') || &t_Co == 88 || &t_Co == 256
     let s:mono_4 = '4b5263'
 
     let s:hue_1  = '559ec3' " cyan
-    let s:hue_2  = 'bd98d2' " blue
-    let s:hue_3  = '2da2d2' " purple
+    let s:hue_2  = 'b46cab' " purple
+    let s:hue_3  = '2da2d2' " blue
     let s:hue_4  = '84b084' " green
 
     let s:hue_5   = 'f05178' " red 1
