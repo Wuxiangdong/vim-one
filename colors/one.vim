@@ -267,16 +267,16 @@ if has('gui_running') || &t_Co == 88 || &t_Co == 256
     let s:mono_3 = '5c6370'
     let s:mono_4 = '4b5263'
 
-    let s:hue_1  = '56b6c2' " cyan
-    let s:hue_2  = '61afef' " blue
-    let s:hue_3  = 'c678dd' " purple
-    let s:hue_4  = '98c379' " green
+    let s:hue_1  = '559ec3' " cyan
+    let s:hue_2  = '2da2d2' " blue
+    let s:hue_3  = 'bd98d2' " purple
+    let s:hue_4  = '96c466' " green
 
-    let s:hue_5   = 'e06c75' " red 1
-    let s:hue_5_2 = 'be5046' " red 2
+    let s:hue_5   = 'f05178' " red 1
+    let s:hue_5_2 = 'd2395a' " red 2
 
-    let s:hue_6   = 'd19a66' " orange 1
-    let s:hue_6_2 = 'e5c07b' " orange 2
+    let s:hue_6   = 'ffb61e' " orange 1
+    let s:hue_6_2 = 'e9bb1d' " orange 2
 
     let s:syntax_bg     = '282c34'
     let s:syntax_gutter = '636d83'
@@ -284,38 +284,38 @@ if has('gui_running') || &t_Co == 88 || &t_Co == 256
 
     let s:syntax_accent = '528bff'
 
-    let s:vertsplit    = '181a1f'
+    let s:vertsplit    = '373d48'
     let s:special_grey = '3b4048'
     let s:visual_grey  = '3e4452'
     let s:pmenu        = '333841'
-  else
-    let s:mono_1 = '494b53'
-    let s:mono_2 = '696c77'
-    let s:mono_3 = 'a0a1a7'
-    let s:mono_4 = 'c2c2c3'
+  " else
+    " let s:mono_1 = '494b53'
+    " let s:mono_2 = '696c77'
+    " let s:mono_3 = 'a0a1a7'
+    " let s:mono_4 = 'c2c2c3'
 
-    let s:hue_1  = '0184bc' " cyan
-    let s:hue_2  = '4078f2' " blue
-    let s:hue_3  = 'a626a4' " purple
-    let s:hue_4  = '50a14f' " green
+    " let s:hue_1  = '0184bc' " cyan
+    " let s:hue_2  = '4078f2' " blue
+    " let s:hue_3  = 'a626a4' " purple
+    " let s:hue_4  = '50a14f' " green
 
-    let s:hue_5   = 'e45649' " red 1
-    let s:hue_5_2 = 'ca1243' " red 2
+    " let s:hue_5   = 'e45649' " red 1
+    " let s:hue_5_2 = 'ca1243' " red 2
 
-    let s:hue_6   = '986801' " orange 1
-    let s:hue_6_2 = 'c18401' " orange 2
+    " let s:hue_6   = '986801' " orange 1
+    " let s:hue_6_2 = 'c18401' " orange 2
 
-    let s:syntax_bg     = 'fafafa'
-    let s:syntax_gutter = '9e9e9e'
-    let s:syntax_cursor = 'f0f0f0'
+    " let s:syntax_bg     = 'fafafa'
+    " let s:syntax_gutter = '9e9e9e'
+    " let s:syntax_cursor = 'f0f0f0'
 
-    let s:syntax_accent = '526fff'
-    let s:syntax_accent_2 = '0083be'
+    " let s:syntax_accent = '526fff'
+    " let s:syntax_accent_2 = '0083be'
 
-    let s:vertsplit    = 'e7e9e1'
-    let s:special_grey = 'd3d3d3'
-    let s:visual_grey  = 'd0d0d0'
-    let s:pmenu        = 'dfdfdf'
+    " let s:vertsplit    = 'e7e9e1'
+    " let s:special_grey = 'd3d3d3'
+    " let s:visual_grey  = 'd0d0d0'
+    " let s:pmenu        = 'dfdfdf'
   endif
 
   let s:syntax_fg = s:mono_1
@@ -334,7 +334,7 @@ if has('gui_running') || &t_Co == 88 || &t_Co == 256
   call <sid>X('CursorLine',   '',              s:syntax_cursor,  'none')
   call <sid>X('Directory',    s:hue_2,         '',               '')
   call <sid>X('ErrorMsg',     s:hue_5,         s:syntax_bg,      'none')
-  call <sid>X('VertSplit',    s:vertsplit,     '',               'none')
+  call <sid>X('VertSplit',    s:vertsplit,     s:vertsplit,      'none')
   call <sid>X('Folded',       s:syntax_bg,     s:syntax_fold_bg, 'none')
   call <sid>X('FoldColumn',   s:mono_3,        s:syntax_cursor,  '')
   call <sid>X('IncSearch',    s:hue_6,         '',               '')
