@@ -284,7 +284,7 @@ if has('gui_running') || &t_Co == 88 || &t_Co == 256
 
     let s:syntax_accent = '54ace6'
 
-    let s:vertsplit    = '474f5d'
+    let s:vertsplit    = '2c323c'
     let s:special_grey = '3b4048'
     let s:visual_grey  = '3e4452'
     let s:pmenu        = '333841'
