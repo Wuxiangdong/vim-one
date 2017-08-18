@@ -811,6 +811,11 @@ if has('gui_running') || &t_Co == 88 || &t_Co == 256
   call <sid>X('ALEErrorSign', s:hue_5,   '', '')
   " }}}
 
+  " validator -----------------------------------------------------------------{{{
+  call <sid>X('ValidatorErrorSign'  ,s:hue_5,'','')
+  call <sid>X('ValidatorWarningSign',s:hue_6,'','')
+  "}}}
+
   " Delete functions =========================================================={{{
   " delf <SID>X
   " delf <SID>rgb
