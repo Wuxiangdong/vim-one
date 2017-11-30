@@ -264,8 +264,8 @@ if has('gui_running') || &t_Co == 88 || &t_Co == 256
   if &background ==# 'dark'
     let s:mono_1 = 'b4b1a8'
     let s:mono_2 = '8d8989'
-    let s:mono_3 = '6c6266'
-    let s:mono_4 = '5d5154'
+    let s:mono_3 = '5d5154'
+    let s:mono_4 = '162a26'
 
     let s:hue_1  = '559ed2' " cyan
     let s:hue_2  = '15a3e9' " blue
@@ -278,16 +278,16 @@ if has('gui_running') || &t_Co == 88 || &t_Co == 256
     let s:hue_6   = 'e9a51b' " orange 1
     let s:hue_6_2 = 'd2a719' " orange 2
 
-    let s:syntax_bg     = '282c34'
+    let s:syntax_bg     = '0b1513'
     let s:syntax_gutter = '636d83'
-    let s:syntax_cursor = '2c323c'
+    let s:syntax_cursor = '162a26'
 
     let s:syntax_accent = '54ace6'
 
-    let s:vertsplit    = '2c323c'
+    let s:vertsplit    = '162a26'
     let s:special_grey = '3b4048'
     let s:visual_grey  = '3e4452'
-    let s:pmenu        = '333841'
+    let s:pmenu        = '09362d'
   " else
     " let s:mono_1 = '494b53'
     " let s:mono_2 = '696c77'
